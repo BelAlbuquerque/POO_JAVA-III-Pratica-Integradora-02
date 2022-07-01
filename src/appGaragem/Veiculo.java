@@ -23,15 +23,14 @@ public class Veiculo {
         return preço;
     }
 
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
     public void setPreço(double preço) {
         this.preço = preço;
+    }
+
+    @Override
+    public String toString() {
+        return "modelo: '" + modelo + '\'' +
+                ", marca: '" + marca + '\'' +
+                ", preço: " + preço;
     }
 }
