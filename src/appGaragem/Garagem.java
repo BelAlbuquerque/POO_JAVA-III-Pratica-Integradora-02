@@ -21,7 +21,7 @@ public class Garagem {
     }
 
     public List<Veiculo> getVeiculos() {
-        veiculos.stream().forEach(v-> System.out.println(v.getMarca()));
+        veiculos.stream().forEach(v-> System.out.println(v));
         return veiculos;
     }
 
