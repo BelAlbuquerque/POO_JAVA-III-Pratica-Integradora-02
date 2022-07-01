@@ -11,6 +11,11 @@ public class Garagem {
         this.id = id;
     }
 
+    public Garagem(int id, List<Veiculo> veiculos) {
+        this.id = id;
+        this.veiculos = veiculos;
+    }
+
     public int getId() {
         return id;
     }
